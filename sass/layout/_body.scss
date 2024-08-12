@@ -1,0 +1,90 @@
+body {
+    background-image: url(../assets/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed; }
+
+    main{
+        .background{
+            main{
+                width: 80%;
+                height: 100%;
+            }
+        }
+    }
+
+    .btn{
+        button{
+            a{
+                color: #1b3039;
+                padding: 9px 25px;
+                background: #eceff1;
+                border: none;
+                border-radius: 50px;
+            }
+        
+    
+        } 
+
+    }
+
+.title {
+    background-color: #df8266;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 30px;
+    margin: 0px auto;
+        cursor: pointer;
+        border-radius: 60px; }
+        .title:hover {
+        background-color: #0a0a0a; }
+
+    .pd-1, .pd-2, .pd-3, .pd-4, .pd-5, .pd-6{
+        p{
+            color: white;
+        }
+        img{
+            width: 400px;
+            height: 211px;
+        object-fit: contain;
+        }
+    
+    } 
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columnas de igual tamaño */
+    gap: 20px; /* Espacio entre las columnas y filas */
+    justify-items: center; /* Centrar horizontalmente cada elemento */
+    align-items: center; /* Centrar verticalmente cada elemento */
+    max-width: 1200px; /* Limita el ancho máximo del contenedor */
+    margin: 0 auto; /* Centrar el contenedor en la página */
+    padding: 20px; /* Espacio interno alrededor del contenedor */
+    div{
+        text-align: center;
+        }
+    }
+
+h2{
+    text-align: center;
+    padding: 0 auto;
+    color: white;
+    font-weight: bold;
+    .pd-t{
+        padding: 20px;
+    }
+}
+
+
+h4{
+    text-align: center;
+    display: block;
+    padding: 0px auto;
+    color: white;
+    font-weight: bold;
+    border: .5px ;
+}

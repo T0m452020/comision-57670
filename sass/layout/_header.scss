@@ -1,0 +1,52 @@
+.header{
+
+    background-color: #eeeeee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+    .logo{
+        cursor: pointer;
+        list-style: none;    
+    }
+
+        img{
+            height: 70px;
+            width: auto;
+        }
+    }
+
+    .nav-links {
+        list-style-type: none; /* Eliminar los puntos de la lista */
+        padding: 0; /* Eliminar el padding por defecto */
+        margin: 0; /* Eliminar el margen por defecto */
+        display: flex; /* Usar flexbox para alinear los elementos en fila */
+        gap: 10px; /* Espacio entre los botones */
+    }
+    
+    /* Estilo básico del enlace como botón */
+    .nav-links a {
+        background-color: #000000; /* Color de fondo */
+        color: white; /* Color del texto */
+        border: none; /* Sin borde */
+        padding: 10px 20px; /* Espaciado interno */
+        text-align: center; /* Alineación del texto */
+        text-decoration: none; /* Sin subrayado */
+        display: inline-block; /* Muestra como bloque en línea */
+        font-size: 16px; /* Tamaño del texto */
+        border-radius: 5px; /* Bordes redondeados */
+        transition: background-color 0.3s, transform 0.2s; /* Transiciones suaves */
+    }
+    
+    /* Efecto al pasar el ratón sobre el enlace */
+    .nav-links a:hover {
+        background-color: #df8266; /* Color de fondo al pasar el ratón */
+        transform: scale(1.05); /* Ligera ampliación del botón */
+    }
+    
+    /* Efecto al hacer clic en el enlace */
+    .nav-links a:active {
+        background-color: #1c6ea4; /* Color de fondo al hacer clic */
+        transform: scale(0.98); /* Reducción del botón */
+    }
