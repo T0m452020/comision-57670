@@ -1,0 +1,140 @@
+// RESPONSIVE //
+@media(max-width: 1024px){
+    // HEADER //
+.header{
+    display: block;
+    width: 100%;
+    position: relative;
+    .logo{
+        display: none;  
+        cursor: pointer;
+        list-style: none;    
+        }
+        img{
+            height: 40px;
+            width: 100px;
+            }
+    }
+
+.nav-links {
+    list-style-type: none; 
+    // padding: 0;
+    padding: auto;
+    margin: 0; 
+    display: flex; /* Usar flexbox para alinear los elementos en fila */
+    gap: 10px; /* Espacio entre los botones */
+}
+.nav-links a {
+    background-color: #000000; 
+    color: white; 
+    border: none; 
+    padding: 10px 20px; /* Espaciado interno */
+    text-align: center; 
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block; /* Muestra como bloque en línea */
+    font-size: 20px; 
+    border-radius: 5px; 
+    transition: background-color 0.3s, transform 0.2s; /* Transiciones suaves */    
+    }
+    
+    /* Efecto al pasar el ratón sobre el enlace */
+    .nav-links a:hover {
+        background-color: #df8266; /* Color de fondo al pasar el ratón */
+        transform: scale(1.05); /* Ligera ampliación del botón */
+    }
+    
+    /* Efecto al hacer clic en el enlace */
+    .nav-links a:active {
+        background-color: #1c6ea4; 
+        transform: scale(0.98);
+    }
+    
+
+    /// BODY ///
+    
+    // CARDS //
+    .container{
+        max-width: 1024px;
+    }
+    .card{
+        p{
+            color: rgb(0, 0, 0);
+            text-align: left;
+            padding: 20px;
+            font-size: 21px;
+        }
+        img{
+            width: 300px;
+            height: 158px;
+            object-fit: contain;
+            margin-top: 7px;
+        }
+        h4{
+            color: rgb(0, 0, 0);    
+            padding: 20px;
+            font-size: 27px;
+            text-align: left;
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

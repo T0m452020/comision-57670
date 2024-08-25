@@ -1,5 +1,4 @@
 .header{
-
     background-color: #eeeeee;
     display: flex;
     justify-content: space-between;
@@ -32,11 +31,13 @@
         border: none; /* Sin borde */
         padding: 10px 20px; /* Espaciado interno */
         text-align: center; /* Alineación del texto */
+        text-transform: uppercase;
         text-decoration: none; /* Sin subrayado */
         display: inline-block; /* Muestra como bloque en línea */
-        font-size: 16px; /* Tamaño del texto */
+        font-size: 20px; /* Tamaño del texto */
         border-radius: 5px; /* Bordes redondeados */
         transition: background-color 0.3s, transform 0.2s; /* Transiciones suaves */
+        
     }
     
     /* Efecto al pasar el ratón sobre el enlace */

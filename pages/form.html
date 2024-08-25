@@ -3,54 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contactanos</title>
+    <link rel="icon" type="image/png" href="../assets/aaaaa.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
+    
 </head>
     <body>
         
         <header class="header">
             <div class="logo">
-                <img src="./assets/logo.png" alt="logo" >
+                <img src="../assets/logo.png" alt="logo" >
             </div>
 
             <nav>
                 <ul class="nav-links">
-                    <li><a href="./pages/v-c-1.html">Motocicletas</a></li>
-                    <li><a href="./pages/v-c-2.html">Autos Coupe</a></li>
-                    <li><a href="./pages/v-c-3.html">Todoterrenos</a></li>
-                    <li><a href="#"><button class="btn">Inicio</button></a></li>
+                    <li><a href="../pages/v-c-1.html">Motocicletas</a></li>
+                    <li><a href="../pages/v-c-2.html">Autos</a></li>
+                    <li><a href="../pages/v-c-3.html">Todoterrenos</a></li>
+                    <li><a href="../inicio.html">Inicio</a></li>
                 </ul>
             </nav>
         </header>
         
-        <h1>CARS X MEET</h1>
+        <h1> <button class="title">CARS X MEET</button></h1>
 
-        <h2>CONTACTANOS</h2>
+        <div class="container.f">
+            <form action="">
+                <div class="mb-3">
+                    <label class="form-label text-white" for="name">Nombre </label>
+                    <input placeholder="Ingrese aqui su Nombre" class="form-control form-control" name="name" type="text" id="name">
+                </div>
 
-        <form action="">
+                <div mb-3>
+                    <label class="form-label text-white" for="email">Ingrese su Email</label>
+                    <input placeholder="Ingrese aqui su Email" class="form-control" name="email" type="email" id="email">
+                </div>
 
-            <div class="consul">
-                <label for="text"></label>
-                <input type="text" name="consulta" id="consulta" placeholder="Ingrese su consulta" required|>
+                <div>
+                    <label class="form-label text-white" for="description">Descripción</label>
+                    <textarea placeholder="Ingrese aqui su consulta"  class="form-control" name="description" id="description" cols="30" rows="10"></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+        </div>
+    
+
+        <footer class="footer">
+            <div class="social-icons">
+                <a href="https://www.instagram.com" target="_blank"><img src="../assets/ig.png" alt="Instagram"></a>
+                <a href="https://www.facebook.com" target="_blank"><img src="../assets/face.png" alt="Facebook"></a>
+                <a href="https://www.twitter.com" target="_blank"><img src="../assets/x.png" alt="Twitter"></a>
+                <a href="https://wa.me/yournumber" target="_blank"><img src="../assets/w.png" alt="WhatsApp"></a>
             </div>
-
-            <div class="nya">
-                <label for="text"></label>
-                <input type="text" name="consulta" id="consulta" placeholder="Ingrese Nombre y Apellido" required|>
-            </div>
-
-            <div class="correo">
-                <label for="text"></label>
-            <input type="text" name="consulta" id="consulta" placeholder="Ingrese su correo electronico" required|>
-            </div>
-
-            <div class="telefono">
-                <label for="text"></label>
-                <input type="text" name="consulta" id="consulta" placeholder="Ingrese su numero de telefono/celular" required|>
-            </div>
-
-            <input type="submit" placeholder="Enviar consulta">
-
-        </form>
+        </footer>
     </body>
 </html>
