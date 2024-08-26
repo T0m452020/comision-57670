@@ -1,0 +1,18 @@
+.title {
+    background-color: #df8266;
+    width:380px;
+    height: 55px;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 8px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 30px;
+    margin: 0px auto;
+    margin-top: 24px;
+        cursor: pointer;
+        border-radius: 60px; }
+        .title:hover {
+            transition: 400ms;
+        background-color: #0a0a0a; }
